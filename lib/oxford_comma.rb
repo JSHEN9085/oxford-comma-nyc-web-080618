@@ -4,10 +4,10 @@
   
 #   elsif array.count == 2 
 #   return array.join(" and ")
-  
+  array = ["apple"]
 # end
 
-# array = ["apple"]
+# 
 def oxford_comma(array)
   if array.length == 2
   array[-2] << " and "
